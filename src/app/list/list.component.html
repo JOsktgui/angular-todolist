@@ -1,0 +1,10 @@
+<div class='app-list'>
+  <ul class='app-list__list'>
+    <li *ngFor="let task of tasks">
+      {{ task.text }}
+      <span (click)='removeTask(task.id)'>
+        REMOVE
+      </span>
+    </li>
+  </ul>
+</div>

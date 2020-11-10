@@ -1,0 +1,24 @@
+.app-root {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #14151d;
+
+  &__input {
+    margin-bottom: 32px;
+    margin-top: 160px;
+
+    input {
+      background-color: #202430;
+      border: none;
+      width: 480px;
+      height: 56px;
+      padding: 0 24px;
+      border-radius: 32px;
+      color: #FFFF;
+      outline: none;
+      font-size: 16px;
+    }
+  }
+}

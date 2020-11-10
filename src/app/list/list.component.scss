@@ -1,0 +1,32 @@
+.app-list {
+  width: 480px;
+
+  &__list {
+    list-style: none;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      font-size: 18px;
+      color: #FFF;
+
+      span {
+        cursor: pointer;
+        margin-left: 16px;
+        color: red;
+        font-weight: 600;
+        font-size: 13px;
+
+        &:hover {
+          opacity: .8;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
